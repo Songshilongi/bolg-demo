@@ -1,6 +1,7 @@
 package songshilong.clone.base.pojo;
 
 import lombok.Data;
+import songshilong.passing.People;
 
 import java.util.List;
 
@@ -22,6 +23,10 @@ public class School {
      * 学校地点
      */
     private String location;
+    /**
+     * 校长
+     */
+    private People headmaster;
     /**
      * 学校中的所有部门
      */
